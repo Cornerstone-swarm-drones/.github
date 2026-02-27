@@ -52,5 +52,5 @@ An autonomous ISR platform that combines **Reinforcement Learning (RL)** with **
 | Name | Email |
 |---|---|
 | Jivesh Kesar | jrb252026@iitd.ac.in |
-| Harsh | jrb252049@iitd.ac.in |
+| Harsh Mulodhia | jrb252049@iitd.ac.in |
 | Rohit Shankar Sinha | jrb252051@iitd.ac.in |
