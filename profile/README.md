@@ -1,34 +1,53 @@
 # Cornerstone Swarm Drones
 
-Autonomous multi-drone swarm systems combining Reinforcement Learning with Distributed Model Predictive Control for Intelligence, Surveillance & Reconnaissance (ISR) missions.
+**Autonomous Multi-Drone Swarm Research & Development**
 
-## Our Project
+We build intelligent, autonomous drone swarm systems that combine advanced control theory with modern machine learning. Our work focuses on real-world ISR (Intelligence, Surveillance & Reconnaissance) applications using distributed coordination and reinforcement learning.
 
-### [ISR-RL-DMPC](https://github.com/Cornerstone-swarm-drones/isr-rl-dmpc)
+---
 
-**Autonomous Multi-Drone Swarm System with Reinforcement Learning-Based Distributed Model Predictive Control**
+## 🚁 Projects
 
-A platform for grid-based ISR operations that fuses deep RL with CVXPY-backed DMPC to coordinate drone swarms in real time.
+### [isr-rl-dmpc](https://github.com/Cornerstone-swarm-drones/isr-rl-dmpc)
 
-**Key Features**
+[![Python 3.8+](https://img.shields.io/badge/python-3.8%2B-blue.svg)](https://www.python.org/downloads/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/Cornerstone-swarm-drones/isr-rl-dmpc/blob/main/LICENSE)
 
-- **Hybrid RL + DMPC Control** — Neural networks learn optimal DMPC cost function parameters while CVXPY enforces hard constraints
-- **9 Integrated Modules** — Mission planning, formation control, sensor fusion, classification, threat assessment, task allocation, DMPC, attitude control, and online learning
-- **Gymnasium-Compatible Environment** — `ISRGridEnv` with Dict observation spaces, multi-objective rewards, and vectorized training support
-- **6-DOF Physics Simulation** — Rigid-body dynamics with wind disturbances, battery depletion, and collision detection
-- **Configurable Mission Scenarios** — Area surveillance, threat response, and search-and-track with YAML-based configuration
+**Intelligence, Surveillance & Reconnaissance Grid-Based Autonomous Swarm with RL-DMPC**
 
-**Mission Scenarios**
+An autonomous ISR platform that combines **Reinforcement Learning (RL)** with **Distributed Model Predictive Control (DMPC)** for multi-drone swarm coordination. The system performs grid-based coverage planning, real-time target tracking, and threat assessment using a modular 9-component architecture with a Gymnasium-compatible RL environment.
+
+**Highlights:**
+- Hybrid RL + DMPC control — neural networks learn optimal DMPC cost function parameters while CVXPY ensures constraint satisfaction
+- 9 integrated modules — mission planning, formation control, sensor fusion, classification, threat assessment, task allocation, DMPC, attitude control, and learning
+- Gymnasium-compatible `ISRGridEnv` with Dict observation spaces, multi-objective rewards, and vectorized training support
+- 6-DOF physics simulation with wind, battery depletion, and collision detection
+
+**Mission Scenarios:**
 
 | Scenario | Area | Drones | Targets | Formation |
 |---|---|---|---|---|
-| Area Surveillance | 500 × 500 m | 4 | 0 | Grid |
-| Threat Response | 300 × 300 m | 6 | 3 | Wedge |
-| Search & Track | 800 × 800 m | 5 | 4 | Line |
+| Area Surveillance | 500×500 m | 4 | 0 | Grid |
+| Threat Response | 300×300 m | 6 | 3 | Wedge |
+| Search & Track | 800×800 m | 5 | 4 | Line |
 
-**Technology Stack:** Python · PyTorch · Gymnasium · CVXPY · NumPy / SciPy
+**Tech Stack:** Python · PyTorch · Gymnasium · CVXPY · NumPy · SciPy
 
-## Team
+---
+
+## 🛠 Technology Focus
+
+| Area | Technologies |
+|---|---|
+| Reinforcement Learning | Gymnasium, PyTorch, Actor-Critic |
+| Control Systems | Distributed MPC, CVXPY, 6-DOF Dynamics |
+| Swarm Coordination | Formation Control, Task Allocation, Hungarian Algorithm |
+| Sensor Systems | Sensor Fusion, Target Tracking, Threat Assessment |
+| Scientific Computing | NumPy, SciPy, scikit-learn, Matplotlib |
+
+---
+
+## 👥 Team
 
 | Name | Email |
 |---|---|
